@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A beginner-friendly HTML5 webpage demonstrating semantic structure, accessibility, and SEO principles." />
+  <meta name="keywords" content="HTML5, Semantic HTML, Accessibility, SEO, Web Development Basics" />
+  <meta name="author" content="Mary Emmanuel" />
+  <title>Accessible & SEO-Friendly HTML5 Page</title>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Semantic Web Design</h1>
+    <p>Your guide to accessible and SEO-friendly HTML5 structure.</p>
+  </header>
+
+  <nav aria-label="Primary">
+    <ul>
+      <li><a href="#introduction" title="Go to Introduction section">Introduction</a></li>
+      <li><a href="#accessibility" title="Go to Accessibility section">Accessibility</a></li>
+      <li><a href="#seo" title="Go to SEO section">SEO</a></li>
+      <li><a href="#contact" title="Go to Contact section">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="introduction" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <p>This page demonstrates how to build a well-structured web page using only HTML5. It focuses on semantic tags, accessibility for screen readers, and basic SEO for search engines.</p>
+    </section>
+
+    <section id="accessibility" aria-labelledby="access-heading">
+      <h2 id="access-heading">Web Accessibility</h2>
+      <article>
+        <h3>Using Landmarks</h3>
+        <p>Semantic tags like <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> provide meaningful regions that assistive technologies can recognize.</p>
+      </article>
+      <article>
+        <h3>ARIA Attributes</h3>
+        <p>Attributes such as <code>aria-label</code> enhance the experience for users relying on screen readers by labeling navigation or sections clearly.</p>
+      </article>
+    </section>
+
+    <section id="seo" aria-labelledby="seo-heading">
+      <h2 id="seo-heading">Search Engine Optimization</h2>
+      <article>
+        <h3>Proper Heading Hierarchy</h3>
+        <p>Using heading tags in the correct order—from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>—helps search engines understand the structure and importance of content.</p>
+      </article>
+      <article>
+        <h3>Meta Tags</h3>
+        <p>The <code>&lt;meta name="description"&gt;</code> tag provides a concise summary of the page for search engines and improves click-through rates.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <address>
+        <p>Email: <a href="mailto:info@example.com">emmamarygift123@gmail.com</a></p>
+        <p>Location: Lagos, Nigeria</p>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mary Emmanuel. All rights reserved | <a href="https://www.w3.org/WAI/" target="_blank">Accessibility Guidelines</a></p>
+  </footer>
+
+</body>
+</html>
